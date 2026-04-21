@@ -1,12 +1,14 @@
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    # base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    base_url="http://localhost:11434/v1"
 )
 
 # 调用模型
 completion = client.chat.completions.create(
-    model="qwen3-max",
+    # model="qwen3-max",
+    model="gpt-oss:20b",
     messages=[
         {"role": "system", "content": "你是一个AI助理，回答问题简洁"},
         {"role": "user", "content": "小明有2条宠物狗"},
