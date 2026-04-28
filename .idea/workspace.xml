@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca529e6-2928-49c5-b088-4a9b42308f91" name="Changes" comment="OpenAI stream">
+      <change afterPath="$PROJECT_DIR$/prompt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +48,12 @@
   "keyToString": {
     "Python.APIKeyTest.executor": "Run",
     "Python.ChatModel.executor": "Run",
+    "Python.Embedding.executor": "Run",
     "Python.HistoryMessage.executor": "Run",
     "Python.LangchainTest.executor": "Run",
     "Python.OpenAIStream.executor": "Run",
     "Python.OpenAIText.executor": "Run",
+    "Python.prompt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
