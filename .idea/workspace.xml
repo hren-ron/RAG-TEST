@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca529e6-2928-49c5-b088-4a9b42308f91" name="Changes" comment="OpenAI stream">
-      <change afterPath="$PROJECT_DIR$/FileMessage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InMemory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InMemoryVectorStore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/session_001" beforeDir="false" afterPath="$PROJECT_DIR$/storage/session_001" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     "Python.FileMessage.executor": "Run",
     "Python.HistoryMessage.executor": "Run",
     "Python.InMemory.executor": "Run",
+    "Python.InMemoryVectorStore.executor": "Run",
     "Python.LangchainTest.executor": "Run",
     "Python.OR.executor": "Run",
     "Python.OpenAIStream.executor": "Run",
@@ -67,7 +69,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.FileMessage">
+  <component name="RunManager">
     <configuration name="FileMessage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RAG" />
       <option name="ENV_FILES" value="" />
